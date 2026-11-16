@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DK Live Map — Festivals &amp; Large Concert Venues in Denmark</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header id="topbar">
+  <h1>DK Live Map</h1>
+  <p class="subtitle">Festivals &amp; large concert venues in Denmark</p>
+  <span id="count" class="count"></span>
+</header>
+<div id="layout">
+  <aside id="sidebar">
+    <input id="search" type="search" placeholder="Search name, city, address…" autocomplete="off">
+    <div id="filters">
+      <div id="category-filters"></div>
+      <select id="capacity-filter" aria-label="Minimum capacity"></select>
+    </div>
+    <ul id="venue-list"></ul>
+    <div id="legend"></div>
+  </aside>
+  <div id="map"></div>
+</div>
+<button id="sidebar-toggle" type="button">List</button>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

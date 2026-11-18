@@ -19,7 +19,26 @@
         "capacity": 130000,
         "founded": 1971,
         "website": "https://roskilde-festival.dk",
-        "description": "Denmark's largest festival and one of the biggest in Northern Europe: 8 days, around 130,000 guests and one of the world's largest camping areas."
+        "description": "Denmark's largest festival and one of the biggest in Northern Europe: 8 days, around 130,000 guests and one of the world's largest camping areas.",
+        "notes": "Run non-profit by the Roskilde Festival Group; the camping area opens the Saturday before the festival.",
+        "contacts": [
+          {
+            "id": "rf-general",
+            "name": "Roskilde Festival — general",
+            "role": "General inquiries",
+            "email": "info@roskilde-festival.dk",
+            "phone": "",
+            "socials": {
+              "instagram": "https://www.instagram.com/roskildefestival/",
+              "facebook": "https://www.facebook.com/roskildefestival",
+              "x": "https://x.com/roskildefestival",
+              "youtube": "https://www.youtube.com/user/RoskildeFestival",
+              "linkedin": "https://www.linkedin.com/company/roskilde-festival/"
+            },
+            "note": "Press: press@roskilde-festival.dk"
+          }
+        ],
+        "partners": []
       }
     },
     {
@@ -40,7 +59,10 @@
         "capacity": 60000,
         "founded": 1980,
         "website": "https://www.smukfest.dk",
-        "description": "Denmark's second-largest festival, held in a beech forest — 'Danmarks Smukkeste Festival' (Denmark's Most Beautiful Festival)."
+        "description": "Denmark's second-largest festival, held in a beech forest — 'Danmarks Smukkeste Festival' (Denmark's Most Beautiful Festival).",
+        "notes": null,
+        "contacts": [],
+        "partners": []
       }
     },
     {
@@ -61,7 +83,26 @@
         "capacity": 40000,
         "founded": 2015,
         "website": "https://tinderbox.dk",
-        "description": "Three-day festival in Tusindårsskoven, a short walk or shuttle ride from Odense city centre."
+        "description": "Three-day festival in Tusindårsskoven, a short walk or shuttle ride from Odense city centre.",
+        "notes": "Owned by Down The Drain Group (same owner as NorthSide).",
+        "contacts": [
+          {
+            "id": "tb-general",
+            "name": "Tinderbox — general",
+            "role": "General inquiries",
+            "email": "info@tinderbox.dk",
+            "phone": "",
+            "socials": {
+              "instagram": "https://www.instagram.com/tinderboxfestival/",
+              "facebook": "https://www.facebook.com/tinderboxdenmark",
+              "x": "https://x.com/tinderboxdk"
+            },
+            "note": ""
+          }
+        ],
+        "partners": [
+          "northside"
+        ]
       }
     },
     {
@@ -82,7 +123,10 @@
         "capacity": 40000,
         "founded": 2020,
         "website": "https://www.gron.dk",
-        "description": "Multi-day festival on Refshaleøen with several stages; earlier editions were spread across Copenhagen."
+        "description": "Multi-day festival on Refshaleøen with several stages; earlier editions were spread across Copenhagen.",
+        "notes": "Shares the Refshaleøen festival site with Strøm, Copenhell and Loppen.",
+        "contacts": [],
+        "partners": []
       }
     },
     {
@@ -103,7 +147,10 @@
         "capacity": 38000,
         "founded": 1993,
         "website": "https://jellingmusikfestival.dk",
-        "description": "Denmark's third-largest festival, held on open grounds just south of Jelling with on-site camping."
+        "description": "Denmark's third-largest festival, held on open grounds just south of Jelling with on-site camping.",
+        "notes": null,
+        "contacts": [],
+        "partners": []
       }
     },
     {
@@ -124,7 +171,25 @@
         "capacity": 35000,
         "founded": 2010,
         "website": "https://www.northside.dk",
-        "description": "Urban three-day festival in Eskelunden, right by the Aarhus river in the heart of the city."
+        "description": "Urban three-day festival in Eskelunden, right by the Aarhus river in the heart of the city.",
+        "notes": "At Eskelunden since 2022 (previously Ådalen, 2011–2019). Owned by Down The Drain Group (same owner as Tinderbox).",
+        "contacts": [
+          {
+            "id": "ns-general",
+            "name": "NorthSide — general",
+            "role": "General inquiries",
+            "email": "info@northside.dk",
+            "phone": "",
+            "socials": {
+              "instagram": "https://www.instagram.com/northsidefestival/",
+              "facebook": "https://www.facebook.com/northsidefestival"
+            },
+            "note": ""
+          }
+        ],
+        "partners": [
+          "tinderbox"
+        ]
       }
     },
     {
@@ -145,7 +210,10 @@
         "capacity": 25000,
         "founded": 1974,
         "website": "https://www.toender-festival.dk",
-        "description": "International folk and world music festival held near the German border since 1974."
+        "description": "International folk and world music festival held near the German border since 1974.",
+        "notes": null,
+        "contacts": [],
+        "partners": []
       }
     },
     {
@@ -166,7 +234,10 @@
         "capacity": 25000,
         "founded": 2017,
         "website": "https://www.heartlandfestival.dk",
-        "description": "Festival in the grounds of Egeskov Castle combining music, talks and gastronomy."
+        "description": "Festival in the grounds of Egeskov Castle combining music, talks and gastronomy.",
+        "notes": null,
+        "contacts": [],
+        "partners": []
       }
     },
     {
@@ -187,7 +258,10 @@
         "capacity": 15000,
         "founded": 2018,
         "website": "https://stromfestival.dk",
-        "description": "Electronic music festival on Refshaleøen."
+        "description": "Electronic music festival on Refshaleøen.",
+        "notes": null,
+        "contacts": [],
+        "partners": []
       }
     },
     {
@@ -208,7 +282,10 @@
         "capacity": 20000,
         "founded": 2010,
         "website": "https://copenhell.dk",
-        "description": "Heavy metal festival on Refshaleøen, one of the world’s largest dedicated metal festivals."
+        "description": "Heavy metal festival on Refshaleøen, one of the world’s largest dedicated metal festivals.",
+        "notes": null,
+        "contacts": [],
+        "partners": []
       }
     },
     {
@@ -229,7 +306,10 @@
         "capacity": 12000,
         "founded": 1991,
         "website": "https://www.langelandsfestivalen.dk",
-        "description": "Family-friendly summer festival in Langeskov on Funen."
+        "description": "Family-friendly summer festival in Langeskov on Funen.",
+        "notes": null,
+        "contacts": [],
+        "partners": []
       }
     },
     {
@@ -250,7 +330,10 @@
         "capacity": 38000,
         "founded": 1992,
         "website": "https://www.parken.dk",
-        "description": "Denmark's national stadium in Østerbro; regular host of stadium-scale concerts."
+        "description": "Denmark's national stadium in Østerbro; regular host of stadium-scale concerts.",
+        "notes": null,
+        "contacts": [],
+        "partners": []
       }
     },
     {
@@ -271,7 +354,10 @@
         "capacity": 29000,
         "founded": 1965,
         "website": "https://brondbyif.dk",
-        "description": "Home of Brøndby IF; also used for large open-air concerts."
+        "description": "Home of Brøndby IF; also used for large open-air concerts.",
+        "notes": null,
+        "contacts": [],
+        "partners": []
       }
     },
     {
@@ -292,7 +378,24 @@
         "capacity": 16000,
         "founded": 2017,
         "website": "https://royal-arena.dk",
-        "description": "Purpose-built indoor arena on Amager; hosted the Eurovision Song Contest 2014."
+        "description": "Purpose-built indoor arena on Amager; hosted the Eurovision Song Contest 2014.",
+        "notes": null,
+        "contacts": [
+          {
+            "id": "ra-general",
+            "name": "Royal Arena — general",
+            "role": "General inquiries",
+            "email": "info@royal-arena.dk",
+            "phone": "",
+            "socials": {
+              "instagram": "https://www.instagram.com/royalarena/",
+              "facebook": "https://www.facebook.com/RoyalArenaDK",
+              "linkedin": "https://www.linkedin.com/company/royal-arena/"
+            },
+            "note": ""
+          }
+        ],
+        "partners": []
       }
     },
     {
@@ -313,7 +416,10 @@
         "capacity": 15000,
         "founded": 2009,
         "website": "https://www.boxen.dk",
-        "description": "Multi-purpose indoor arena in Herning, a regular stop for major touring acts in Jutland."
+        "description": "Multi-purpose indoor arena in Herning, a regular stop for major touring acts in Jutland.",
+        "notes": null,
+        "contacts": [],
+        "partners": []
       }
     },
     {
@@ -334,7 +440,10 @@
         "capacity": 20000,
         "founded": null,
         "website": "https://www.ceresarena.dk",
-        "description": "Large indoor arena in the Ceres Park complex, next to NRGi Park."
+        "description": "Large indoor arena in the Ceres Park complex, next to NRGi Park.",
+        "notes": null,
+        "contacts": [],
+        "partners": []
       }
     },
     {
@@ -355,7 +464,10 @@
         "capacity": 19400,
         "founded": 1920,
         "website": "https://www.nrgipark.dk",
-        "description": "Home of AGF Aarhus; hosts concerts for major international acts."
+        "description": "Home of AGF Aarhus; hosts concerts for major international acts.",
+        "notes": null,
+        "contacts": [],
+        "partners": []
       }
     },
     {
@@ -376,7 +488,10 @@
         "capacity": 8500,
         "founded": null,
         "website": "https://forumhorsens.dk",
-        "description": "Indoor event arena in Horsens hosting concerts, shows and exhibitions."
+        "description": "Indoor event arena in Horsens hosting concerts, shows and exhibitions.",
+        "notes": null,
+        "contacts": [],
+        "partners": []
       }
     },
     {
@@ -397,7 +512,10 @@
         "capacity": 6000,
         "founded": null,
         "website": "https://sparnordarena.dk",
-        "description": "Indoor arena in central Aalborg for concerts and sports."
+        "description": "Indoor arena in central Aalborg for concerts and sports.",
+        "notes": null,
+        "contacts": [],
+        "partners": []
       }
     },
     {
@@ -418,7 +536,10 @@
         "capacity": 5000,
         "founded": null,
         "website": "https://gigantium.dk",
-        "description": "Large event hall in Aalborg used for concerts, trade fairs and sports."
+        "description": "Large event hall in Aalborg used for concerts, trade fairs and sports.",
+        "notes": null,
+        "contacts": [],
+        "partners": []
       }
     },
     {
@@ -439,7 +560,10 @@
         "capacity": 4000,
         "founded": 1938,
         "website": "https://www.kbhallen.dk",
-        "description": "Historic concert hall from 1938; still one of Copenhagen’s key large rock/pop rooms."
+        "description": "Historic concert hall from 1938; still one of Copenhagen’s key large rock/pop rooms.",
+        "notes": null,
+        "contacts": [],
+        "partners": []
       }
     },
     {
@@ -460,7 +584,10 @@
         "capacity": 2800,
         "founded": null,
         "website": "https://www.akkc.dk",
-        "description": "Congress and culture centre by the Aalborg waterfront with a large concert hall."
+        "description": "Congress and culture centre by the Aalborg waterfront with a large concert hall.",
+        "notes": null,
+        "contacts": [],
+        "partners": []
       }
     },
     {
@@ -481,7 +608,10 @@
         "capacity": 2500,
         "founded": 1957,
         "website": "https://www.oeksnehallen.dk",
-        "description": "Iconic exhibition and concert hall near Tivoli in Vesterbro."
+        "description": "Iconic exhibition and concert hall near Tivoli in Vesterbro.",
+        "notes": null,
+        "contacts": [],
+        "partners": []
       }
     },
     {
@@ -502,7 +632,10 @@
         "capacity": 1900,
         "founded": null,
         "website": "https://www.musikhuset.dk",
-        "description": "Aarhus concert hall with several halls; home of the Aarhus Symphony Orchestra."
+        "description": "Aarhus concert hall with several halls; home of the Aarhus Symphony Orchestra.",
+        "notes": null,
+        "contacts": [],
+        "partners": []
       }
     },
     {
@@ -523,7 +656,10 @@
         "capacity": 1800,
         "founded": 2009,
         "website": "https://www.dr.dk/koncerthuset",
-        "description": "DR's concert hall on DR Byen; home of the Danish National Symphony Orchestra."
+        "description": "DR's concert hall on DR Byen; home of the Danish National Symphony Orchestra.",
+        "notes": null,
+        "contacts": [],
+        "partners": []
       }
     },
     {
@@ -544,7 +680,10 @@
         "capacity": 1800,
         "founded": null,
         "website": "https://pumpehuset.dk",
-        "description": "Rock and pop venue behind City Hall with two stages."
+        "description": "Rock and pop venue behind City Hall with two stages.",
+        "notes": null,
+        "contacts": [],
+        "partners": []
       }
     },
     {
@@ -565,7 +704,10 @@
         "capacity": 1600,
         "founded": 1886,
         "website": "https://cirkusbygningen.dk",
-        "description": "Historic circus building turned concert venue near the central station."
+        "description": "Historic circus building turned concert venue near the central station.",
+        "notes": null,
+        "contacts": [],
+        "partners": []
       }
     },
     {
@@ -586,7 +728,23 @@
         "capacity": 1550,
         "founded": null,
         "website": "https://www.vegacph.dk",
-        "description": "Two halls in one building in Vesterbro — Store Vega (~1,550) and Lille Vega (~400); a landmark for international touring acts."
+        "description": "Two halls in one building in Vesterbro — Store Vega (~1,550) and Lille Vega (~400); a landmark for international touring acts.",
+        "notes": null,
+        "contacts": [
+          {
+            "id": "vega-general",
+            "name": "Vega — general",
+            "role": "General / booking inquiries",
+            "email": "info@vegacph.dk",
+            "phone": "",
+            "socials": {
+              "instagram": "https://www.instagram.com/vega_cph/",
+              "facebook": "https://www.facebook.com/VEGAkbh/"
+            },
+            "note": ""
+          }
+        ],
+        "partners": []
       }
     },
     {
@@ -607,7 +765,10 @@
         "capacity": 1500,
         "founded": null,
         "website": "https://www.voxhall.dk",
-        "description": "Concert venue next to Vega in Vesterbro with a main hall and smaller rooms."
+        "description": "Concert venue next to Vega in Vesterbro with a main hall and smaller rooms.",
+        "notes": null,
+        "contacts": [],
+        "partners": []
       }
     },
     {
@@ -628,7 +789,10 @@
         "capacity": 1250,
         "founded": 1991,
         "website": "https://amagerbio.dk",
-        "description": "Classic rock club on Amager, Copenhagen."
+        "description": "Classic rock club on Amager, Copenhagen.",
+        "notes": null,
+        "contacts": [],
+        "partners": []
       }
     },
     {
@@ -649,7 +813,10 @@
         "capacity": 1400,
         "founded": 2007,
         "website": "https://www.musikkenshus.dk",
-        "description": "Aalborg’s concert hall for classical, jazz and popular music by the Limfjord."
+        "description": "Aalborg’s concert hall for classical, jazz and popular music by the Limfjord.",
+        "notes": null,
+        "contacts": [],
+        "partners": []
       }
     },
     {
@@ -670,7 +837,10 @@
         "capacity": 1000,
         "founded": null,
         "website": "https://postenlive.dk",
-        "description": "Odense’s main rock venue in the city centre."
+        "description": "Odense’s main rock venue in the city centre.",
+        "notes": null,
+        "contacts": [],
+        "partners": []
       }
     },
     {
@@ -691,7 +861,10 @@
         "capacity": 800,
         "founded": null,
         "website": "https://www.loppen.dk",
-        "description": "Independent venue on Refshaleøen, a hub for emerging and experimental music."
+        "description": "Independent venue on Refshaleøen, a hub for emerging and experimental music.",
+        "notes": null,
+        "contacts": [],
+        "partners": []
       }
     }
   ]

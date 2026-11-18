@@ -93,7 +93,7 @@ body {
 .leaflet-popup-content-wrapper { background: #161b22; color: #e8eaed; border: 1px solid #2c333f; border-radius: 10px; }
 .leaflet-popup-content { margin: 12px 14px; font-size: 13px; line-height: 1.45; }
 .leaflet-popup-tip { background: #161b22; }
-.leaflet-container { background: #0e1116; font: inherit; }
+.leaflet-container { background: #aad3df; font: inherit; }
 .leaflet-bar a { background: #1a212c; color: #e8eaed; border-bottom: 1px solid #2c333f; }
 .leaflet-bar a:hover { background: #232b38; }
 .marker-cluster-small, .marker-cluster-medium, .marker-cluster-large { background-color: rgba(77, 195, 255, 0.25); }

@@ -13,7 +13,26 @@
       website: 'https://roskilde-festival.dk',
       lat: 55.6197,
       lng: 12.0727,
-      description: "Denmark's largest festival and one of the biggest in Northern Europe: 8 days, around 130,000 guests and one of the world's largest camping areas."
+      description: "Denmark's largest festival and one of the biggest in Northern Europe: 8 days, around 130,000 guests and one of the world's largest camping areas.",
+      notes: 'Run non-profit by the Roskilde Festival Group; the camping area opens the Saturday before the festival.',
+      contacts: [
+        {
+          id: 'rf-general',
+          name: 'Roskilde Festival — general',
+          role: 'General inquiries',
+          email: 'info@roskilde-festival.dk',
+          phone: '',
+          socials: {
+            instagram: 'https://www.instagram.com/roskildefestival/',
+            facebook: 'https://www.facebook.com/roskildefestival',
+            x: 'https://x.com/roskildefestival',
+            youtube: 'https://www.youtube.com/user/RoskildeFestival',
+            linkedin: 'https://www.linkedin.com/company/roskilde-festival/'
+          },
+          note: 'Press: press@roskilde-festival.dk'
+        }
+      ],
+      partners: []
     },
     {
       id: 'smukfest',
@@ -39,7 +58,24 @@
       website: 'https://tinderbox.dk',
       lat: 55.3825,
       lng: 10.3411,
-      description: 'Three-day festival in Tusindårsskoven, a short walk or shuttle ride from Odense city centre.'
+      description: 'Three-day festival in Tusindårsskoven, a short walk or shuttle ride from Odense city centre.',
+      notes: 'Owned by Down The Drain Group (same owner as NorthSide).',
+      contacts: [
+        {
+          id: 'tb-general',
+          name: 'Tinderbox — general',
+          role: 'General inquiries',
+          email: 'info@tinderbox.dk',
+          phone: '',
+          socials: {
+            instagram: 'https://www.instagram.com/tinderboxfestival/',
+            facebook: 'https://www.facebook.com/tinderboxdenmark',
+            x: 'https://x.com/tinderboxdk'
+          },
+          note: ''
+        }
+      ],
+      partners: ['northside']
     },
     {
       id: 'gron',
@@ -52,7 +88,8 @@
       website: 'https://www.gron.dk',
       lat: 55.6905,
       lng: 12.6115,
-      description: 'Multi-day festival on Refshaleøen with several stages; earlier editions were spread across Copenhagen.'
+      description: 'Multi-day festival on Refshaleøen with several stages; earlier editions were spread across Copenhagen.',
+      notes: 'Shares the Refshaleøen festival site with Strøm, Copenhell and Loppen.'
     },
     {
       id: 'jelling-musikfestival',
@@ -78,7 +115,23 @@
       website: 'https://www.northside.dk',
       lat: 56.1538,
       lng: 10.2118,
-      description: 'Urban three-day festival in Eskelunden, right by the Aarhus river in the heart of the city.'
+      description: 'Urban three-day festival in Eskelunden, right by the Aarhus river in the heart of the city.',
+      notes: 'At Eskelunden since 2022 (previously Ådalen, 2011–2019). Owned by Down The Drain Group (same owner as Tinderbox).',
+      contacts: [
+        {
+          id: 'ns-general',
+          name: 'NorthSide — general',
+          role: 'General inquiries',
+          email: 'info@northside.dk',
+          phone: '',
+          socials: {
+            instagram: 'https://www.instagram.com/northsidefestival/',
+            facebook: 'https://www.facebook.com/northsidefestival'
+          },
+          note: ''
+        }
+      ],
+      partners: ['tinderbox']
     },
     {
       id: 'toender-festival',
@@ -182,7 +235,23 @@
       website: 'https://royal-arena.dk',
       lat: 55.6326,
       lng: 12.5657,
-      description: 'Purpose-built indoor arena on Amager; hosted the Eurovision Song Contest 2014.'
+      description: 'Purpose-built indoor arena on Amager; hosted the Eurovision Song Contest 2014.',
+      contacts: [
+        {
+          id: 'ra-general',
+          name: 'Royal Arena — general',
+          role: 'General inquiries',
+          email: 'info@royal-arena.dk',
+          phone: '',
+          socials: {
+            instagram: 'https://www.instagram.com/royalarena/',
+            facebook: 'https://www.facebook.com/RoyalArenaDK',
+            linkedin: 'https://www.linkedin.com/company/royal-arena/'
+          },
+          note: ''
+        }
+      ],
+      partners: []
     },
     {
       id: 'jyske-bank-boxen',
@@ -364,7 +433,22 @@
       website: 'https://www.vegacph.dk',
       lat: 55.6709,
       lng: 12.5478,
-      description: 'Two halls in one building in Vesterbro — Store Vega (~1,550) and Lille Vega (~400); a landmark for international touring acts.'
+      description: 'Two halls in one building in Vesterbro — Store Vega (~1,550) and Lille Vega (~400); a landmark for international touring acts.',
+      contacts: [
+        {
+          id: 'vega-general',
+          name: 'Vega — general',
+          role: 'General / booking inquiries',
+          email: 'info@vegacph.dk',
+          phone: '',
+          socials: {
+            instagram: 'https://www.instagram.com/vega_cph/',
+            facebook: 'https://www.facebook.com/VEGAkbh/'
+          },
+          note: ''
+        }
+      ],
+      partners: []
     },
     {
       id: 'voxhall',

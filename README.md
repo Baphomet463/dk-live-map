@@ -27,7 +27,7 @@ Deploy as-is to GitHub Pages (the repo root works as the Pages source).
   - key partners: tick other sites — partner links are drawn on the map and highlighted when a site is selected
 - Partner-link layer can be toggled; list entries show contact/partner counts
 - Edits are stored in your browser (localStorage); Export JSON / Import JSON to back up, share or move data; Reset edits restores the built-in dataset
-- OpenStreetMap base map, visually muted (grayscale CSS filter) and capped at zoom 15 to stay low-detail; attribution in the map corner
+- OpenStreetMap base map, heavily muted (grayscale + blur CSS filter, so buildings and street names stay unreadable when zoomed in) and capped at zoom 15; attribution in the map corner
 - Marker size scales with capacity; responsive layout with a collapsible list on mobile
 
 ## Project layout
@@ -82,4 +82,4 @@ Site edits (address, notes, contacts, partners, etc.) are kept in the browser's 
 - Coordinates are decimal degrees (WGS84), approximate to the site/building; refine against OpenStreetMap if needed.
 - Capacities are approximate maximum attendance and are used for marker size and filtering only.
 - Some sites ship with seeded public contacts/notes and one partner link (NorthSide ↔ Tinderbox, same owner); extend freely via the editor.
-- Base map tiles: OpenStreetMap, muted via CSS filter with max zoom 15 — see the attribution in the map corner.
+- Base map tiles: OpenStreetMap, muted via CSS filter (grayscale + 2px blur, max zoom 15) so zoomed-in detail stays unreadable — see the attribution in the map corner.

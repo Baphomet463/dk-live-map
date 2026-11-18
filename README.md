@@ -1,6 +1,6 @@
 # DK Live Map
 
-An interactive map of festival grounds and large concert venues in Denmark.
+An interactive map of festival grounds and large concert venues in Denmark — used as a business network map: edit sites, keep notes and contacts, and link key partners on the map.
 
 ![Static site](https://img.shields.io/badge/stack-static%20HTML%2FJS%20%2B%20Leaflet-blue)
 
@@ -18,9 +18,15 @@ Deploy as-is to GitHub Pages (the repo root works as the Pages source).
 ## Features
 
 - All festival sites and large venues (stadiums, arenas, halls) as clustered, color-coded markers
-- Search by name, city or address
+- Search by name, city, address or notes
 - Filter by category (festival / stadium / arena / hall) and minimum capacity
-- Click a list entry to fly to the marker; click a marker to see details, capacity and official website
+- Click a marker, use "Manage site / network" in its popup, or double-click a list entry to open the editor:
+  - edit name, category, city, address, capacity, founded year, website, description
+  - free-text notes per site
+  - contacts per site: name, role, email, phone, social media links (Instagram, Facebook, LinkedIn, X, YouTube, TikTok, website) and a free note
+  - key partners: tick other sites — partner links are drawn on the map and highlighted when a site is selected
+- Partner-link layer can be toggled; list entries show contact/partner counts
+- Edits are stored in your browser (localStorage); Export JSON / Import JSON to back up, share or move data; Reset edits restores the built-in dataset
 - OpenStreetMap base map (attribution in the map corner)
 - Marker size scales with capacity; responsive layout with a collapsible list on mobile
 
@@ -30,9 +36,9 @@ Deploy as-is to GitHub Pages (the repo root works as the Pages source).
 index.html               app shell
 css/style.css            theme styling
 js/data.js               venue dataset (source of truth, plain JS so file:// works)
-js/app.js                Leaflet map, clustering, filters, sidebar list
+js/app.js                Leaflet map, clustering, filters, editor, partner network
 data/venues.geojson      GeoJSON export of the dataset (generated)
-scripts/check-data.js    validates the dataset (ids, categories, DK coordinate bounds, links)
+scripts/check-data.js    validates the dataset (ids, categories, DK coordinate bounds, links, contacts, partners)
 scripts/export-geojson.js  regenerates data/venues.geojson from js/data.js
 ```
 
@@ -52,7 +58,10 @@ Edit the entry in `js/data.js`:
   website: 'https://example.dk',
   lat: 55.6761,              // decimal degrees
   lng: 12.5683,
-  description: 'Short description.'
+  description: 'Short description.',
+  notes: '',                 // optional free text
+  contacts: [],              // optional: [{ id, name, role, email, phone, socials: { instagram, facebook, linkedin, x, youtube, tiktok, website }, note }]
+  partners: []               // optional: ids of other sites in this dataset
 }
 ```
 
@@ -63,9 +72,14 @@ node scripts/check-data.js       # validate
 node scripts/export-geojson.js   # regenerate data/venues.geojson
 ```
 
+## Network data & storage
+
+Site edits (address, notes, contacts, partners, etc.) are kept in the browser's localStorage as an overlay on the built-in `js/data.js` dataset — nothing is sent anywhere. Use **Export JSON** to download the full merged dataset and **Import JSON** to load it on this or another device/browser. **Reset edits** clears the overlay. The checked-in `js/data.js` only changes when you edit it in the repo and commit.
+
 ## Data notes
 
 - 11 festival grounds and 22 large venues (as of this dataset).
 - Coordinates are decimal degrees (WGS84), approximate to the site/building; refine against OpenStreetMap if needed.
 - Capacities are approximate maximum attendance and are used for marker size and filtering only.
+- Some sites ship with seeded public contacts/notes and one partner link (NorthSide ↔ Tinderbox, same owner); extend freely via the editor.
 - Base map tiles: OpenStreetMap — see the attribution in the map corner.

@@ -21,14 +21,14 @@ Deploy as-is to GitHub Pages (the repo root works as the Pages source).
 - Search by name, city or address
 - Filter by category (festival / stadium / arena / hall) and minimum capacity
 - Click a list entry to fly to the marker; click a marker to see details, capacity and official website
-- Three base maps: CARTO dark (default), CARTO light, OpenStreetMap
+- OpenStreetMap base map (attribution in the map corner)
 - Marker size scales with capacity; responsive layout with a collapsible list on mobile
 
 ## Project layout
 
 ```
 index.html               app shell
-css/style.css            dark theme styling
+css/style.css            theme styling
 js/data.js               venue dataset (source of truth, plain JS so file:// works)
 js/app.js                Leaflet map, clustering, filters, sidebar list
 data/venues.geojson      GeoJSON export of the dataset (generated)
@@ -68,4 +68,4 @@ node scripts/export-geojson.js   # regenerate data/venues.geojson
 - 11 festival grounds and 22 large venues (as of this dataset).
 - Coordinates are decimal degrees (WGS84), approximate to the site/building; refine against OpenStreetMap if needed.
 - Capacities are approximate maximum attendance and are used for marker size and filtering only.
-- Base map tiles: CARTO / OpenStreetMap — see attributions in the map corner.
+- Base map tiles: OpenStreetMap — see the attribution in the map corner.

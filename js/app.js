@@ -137,10 +137,10 @@
   }
 
   function initMap() {
-    map = L.map('map', { center: [55.9, 10.6], zoom: 7, worldCopyJump: true });
+    map = L.map('map', { center: [55.9, 10.6], zoom: 7, worldCopyJump: true, maxZoom: 15 });
     var osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-      maxZoom: 19
+      maxZoom: 15
     });
     osm.addTo(map);
     edgesLayer = L.layerGroup().addTo(map);

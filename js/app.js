@@ -58,18 +58,11 @@
 
   function initMap() {
     map = L.map('map', { center: [55.9, 10.6], zoom: 7, worldCopyJump: true });
-    var attribution = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>';
-    var dark = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-      attribution: attribution, maxZoom: 19, subdomains: 'abcd'
-    });
-    var light = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
-      attribution: attribution, maxZoom: 19, subdomains: 'abcd'
-    });
     var osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      attribution: attribution, maxZoom: 19
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+      maxZoom: 19
     });
-    dark.addTo(map);
-    L.control.layers({ Dark: dark, Light: light, OpenStreetMap: osm }, null, { position: 'topright' }).addTo(map);
+    osm.addTo(map);
     cluster = L.markerClusterGroup({ maxClusterRadius: 55 });
     addMarkers();
     map.addLayer(cluster);

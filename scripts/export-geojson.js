@@ -21,7 +21,10 @@ var featureCollection = {
         capacity: v.capacity,
         founded: v.founded,
         website: v.website,
-        description: v.description
+        description: v.description,
+        notes: v.notes || null,
+        contacts: v.contacts || [],
+        partners: v.partners || []
       }
     };
   })

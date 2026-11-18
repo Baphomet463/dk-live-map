@@ -1,0 +1,698 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.0727,
+          55.6197
+        ]
+      },
+      "properties": {
+        "id": "roskilde-festival",
+        "name": "Roskilde Festival",
+        "category": "festival",
+        "city": "Roskilde",
+        "address": "Festival grounds at Trekroner, Darupvej, 4000 Roskilde",
+        "capacity": 130000,
+        "founded": 1971,
+        "website": "https://roskilde-festival.dk",
+        "description": "Denmark's largest festival and one of the biggest in Northern Europe: 8 days, around 130,000 guests and one of the world's largest camping areas."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9072,
+          56.0228
+        ]
+      },
+      "properties": {
+        "id": "smukfest",
+        "name": "Smukfest (Skanderborg Festival)",
+        "category": "festival",
+        "city": "Skanderborg",
+        "address": "Skanderborg Dyrehave (Bøgeskoven), 8660 Skanderborg",
+        "capacity": 60000,
+        "founded": 1980,
+        "website": "https://www.smukfest.dk",
+        "description": "Denmark's second-largest festival, held in a beech forest — 'Danmarks Smukkeste Festival' (Denmark's Most Beautiful Festival)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3411,
+          55.3825
+        ]
+      },
+      "properties": {
+        "id": "tinderbox",
+        "name": "Tinderbox",
+        "category": "festival",
+        "city": "Odense",
+        "address": "Tusindårsskoven, Falen 177, 5250 Odense V",
+        "capacity": 40000,
+        "founded": 2015,
+        "website": "https://tinderbox.dk",
+        "description": "Three-day festival in Tusindårsskoven, a short walk or shuttle ride from Odense city centre."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.6115,
+          55.6905
+        ]
+      },
+      "properties": {
+        "id": "gron",
+        "name": "Grøn",
+        "category": "festival",
+        "city": "Copenhagen",
+        "address": "Refshaleøen, 1432 København K",
+        "capacity": 40000,
+        "founded": 2020,
+        "website": "https://www.gron.dk",
+        "description": "Multi-day festival on Refshaleøen with several stages; earlier editions were spread across Copenhagen."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4225,
+          55.747
+        ]
+      },
+      "properties": {
+        "id": "jelling-musikfestival",
+        "name": "Jelling Musikfestival",
+        "category": "festival",
+        "city": "Jelling",
+        "address": "Festivalplads, Mølvangvej 66B, 7300 Jelling",
+        "capacity": 38000,
+        "founded": 1993,
+        "website": "https://jellingmusikfestival.dk",
+        "description": "Denmark's third-largest festival, held on open grounds just south of Jelling with on-site camping."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.2118,
+          56.1538
+        ]
+      },
+      "properties": {
+        "id": "northside",
+        "name": "NorthSide Festival",
+        "category": "festival",
+        "city": "Aarhus",
+        "address": "Eskelunden, 8000 Aarhus C",
+        "capacity": 35000,
+        "founded": 2010,
+        "website": "https://www.northside.dk",
+        "description": "Urban three-day festival in Eskelunden, right by the Aarhus river in the heart of the city."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8585,
+          54.9315
+        ]
+      },
+      "properties": {
+        "id": "toender-festival",
+        "name": "Tønder Festival",
+        "category": "festival",
+        "city": "Tønder",
+        "address": "Festivalpladsen, 6270 Tønder",
+        "capacity": 25000,
+        "founded": 1974,
+        "website": "https://www.toender-festival.dk",
+        "description": "International folk and world music festival held near the German border since 1974."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4862,
+          55.2849
+        ]
+      },
+      "properties": {
+        "id": "heartland",
+        "name": "Heartland Festival",
+        "category": "festival",
+        "city": "Kværndrup (Funen)",
+        "address": "Egeskov Slot, Nyborgvej 24, 5772 Kværndrup",
+        "capacity": 25000,
+        "founded": 2017,
+        "website": "https://www.heartlandfestival.dk",
+        "description": "Festival in the grounds of Egeskov Castle combining music, talks and gastronomy."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.6125,
+          55.69
+        ]
+      },
+      "properties": {
+        "id": "strom",
+        "name": "Strøm Festival",
+        "category": "festival",
+        "city": "Copenhagen",
+        "address": "Refshaleøen, 1432 København K",
+        "capacity": 15000,
+        "founded": 2018,
+        "website": "https://stromfestival.dk",
+        "description": "Electronic music festival on Refshaleøen."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.6135,
+          55.6898
+        ]
+      },
+      "properties": {
+        "id": "copenhell",
+        "name": "Copenhell",
+        "category": "festival",
+        "city": "Copenhagen",
+        "address": "Refshaleøen, 1432 København K",
+        "capacity": 20000,
+        "founded": 2010,
+        "website": "https://copenhell.dk",
+        "description": "Heavy metal festival on Refshaleøen, one of the world’s largest dedicated metal festivals."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.594,
+          55.389
+        ]
+      },
+      "properties": {
+        "id": "langelandsfestivalen",
+        "name": "Langelandsfestivalen",
+        "category": "festival",
+        "city": "Langeskov (Funen)",
+        "address": "Festival grounds, 5550 Langeskov",
+        "capacity": 12000,
+        "founded": 1991,
+        "website": "https://www.langelandsfestivalen.dk",
+        "description": "Family-friendly summer festival in Langeskov on Funen."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5689,
+          55.6616
+        ]
+      },
+      "properties": {
+        "id": "parken",
+        "name": "Parken (Telia Parken)",
+        "category": "stadium",
+        "city": "Copenhagen",
+        "address": "Øster Allé 39, 2100 København Ø",
+        "capacity": 38000,
+        "founded": 1992,
+        "website": "https://www.parken.dk",
+        "description": "Denmark's national stadium in Østerbro; regular host of stadium-scale concerts."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5258,
+          55.5982
+        ]
+      },
+      "properties": {
+        "id": "brondby-stadion",
+        "name": "Brøndby Stadion",
+        "category": "stadium",
+        "city": "Brøndby",
+        "address": "Brøndby Stadionvej 30, 2605 Brøndby",
+        "capacity": 29000,
+        "founded": 1965,
+        "website": "https://brondbyif.dk",
+        "description": "Home of Brøndby IF; also used for large open-air concerts."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5657,
+          55.6326
+        ]
+      },
+      "properties": {
+        "id": "royal-arena",
+        "name": "Royal Arena",
+        "category": "arena",
+        "city": "Copenhagen",
+        "address": "Hannemanns Allé 18, 2300 København S",
+        "capacity": 16000,
+        "founded": 2017,
+        "website": "https://royal-arena.dk",
+        "description": "Purpose-built indoor arena on Amager; hosted the Eurovision Song Contest 2014."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.978,
+          56.1375
+        ]
+      },
+      "properties": {
+        "id": "jyske-bank-boxen",
+        "name": "Jyske Bank Boxen",
+        "category": "arena",
+        "city": "Herning",
+        "address": "Børkjærvej 6, 7400 Herning",
+        "capacity": 15000,
+        "founded": 2009,
+        "website": "https://www.boxen.dk",
+        "description": "Multi-purpose indoor arena in Herning, a regular stop for major touring acts in Jutland."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.231,
+          56.1655
+        ]
+      },
+      "properties": {
+        "id": "ceres-arena",
+        "name": "Ceres Arena",
+        "category": "arena",
+        "city": "Aarhus",
+        "address": "Ceres Park, 8000 Aarhus C",
+        "capacity": 20000,
+        "founded": null,
+        "website": "https://www.ceresarena.dk",
+        "description": "Large indoor arena in the Ceres Park complex, next to NRGi Park."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.235,
+          56.1625
+        ]
+      },
+      "properties": {
+        "id": "nrgi-park",
+        "name": "NRGi Park (Aarhus Stadion)",
+        "category": "stadium",
+        "city": "Aarhus",
+        "address": "Kongelunden, 8000 Aarhus C",
+        "capacity": 19400,
+        "founded": 1920,
+        "website": "https://www.nrgipark.dk",
+        "description": "Home of AGF Aarhus; hosts concerts for major international acts."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.8497,
+          55.8603
+        ]
+      },
+      "properties": {
+        "id": "forum-horsens",
+        "name": "Forum Horsens",
+        "category": "arena",
+        "city": "Horsens",
+        "address": "Kongevejen 33, 8700 Horsens",
+        "capacity": 8500,
+        "founded": null,
+        "website": "https://forumhorsens.dk",
+        "description": "Indoor event arena in Horsens hosting concerts, shows and exhibitions."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9133,
+          57.0333
+        ]
+      },
+      "properties": {
+        "id": "spar-nord-arena",
+        "name": "Spar Nord Arena",
+        "category": "arena",
+        "city": "Aalborg",
+        "address": "Østre Allé area, 9000 Aalborg",
+        "capacity": 6000,
+        "founded": null,
+        "website": "https://sparnordarena.dk",
+        "description": "Indoor arena in central Aalborg for concerts and sports."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9285,
+          57.0455
+        ]
+      },
+      "properties": {
+        "id": "gigantium",
+        "name": "Gigantium",
+        "category": "arena",
+        "city": "Aalborg",
+        "address": "Hadsundvej 12, 9000 Aalborg",
+        "capacity": 5000,
+        "founded": null,
+        "website": "https://gigantium.dk",
+        "description": "Large event hall in Aalborg used for concerts, trade fairs and sports."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.545,
+          55.7055
+        ]
+      },
+      "properties": {
+        "id": "kb-hallen",
+        "name": "KB Hallen",
+        "category": "hall",
+        "city": "Frederiksberg (Copenhagen)",
+        "address": "Peter Bangs Vej 147, 2000 Frederiksberg",
+        "capacity": 4000,
+        "founded": 1938,
+        "website": "https://www.kbhallen.dk",
+        "description": "Historic concert hall from 1938; still one of Copenhagen’s key large rock/pop rooms."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9171,
+          57.0443
+        ]
+      },
+      "properties": {
+        "id": "akkc",
+        "name": "Aalborg Kongres & Kultur Center",
+        "category": "hall",
+        "city": "Aalborg",
+        "address": "Europa Plads 2, 9000 Aalborg",
+        "capacity": 2800,
+        "founded": null,
+        "website": "https://www.akkc.dk",
+        "description": "Congress and culture centre by the Aalborg waterfront with a large concert hall."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5669,
+          55.6903
+        ]
+      },
+      "properties": {
+        "id": "oeksnehallen",
+        "name": "Øksnehallen",
+        "category": "hall",
+        "city": "Copenhagen",
+        "address": "Tietgensgade 65, 1620 København V",
+        "capacity": 2500,
+        "founded": 1957,
+        "website": "https://www.oeksnehallen.dk",
+        "description": "Iconic exhibition and concert hall near Tivoli in Vesterbro."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.2075,
+          56.1594
+        ]
+      },
+      "properties": {
+        "id": "musikhuset-aarhus",
+        "name": "Musikhuset Aarhus",
+        "category": "hall",
+        "city": "Aarhus",
+        "address": "Thomas Jensens Allé 2, 8000 Aarhus C",
+        "capacity": 1900,
+        "founded": null,
+        "website": "https://www.musikhuset.dk",
+        "description": "Aarhus concert hall with several halls; home of the Aarhus Symphony Orchestra."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5896,
+          55.6761
+        ]
+      },
+      "properties": {
+        "id": "dr-koncerthuset",
+        "name": "DR Koncerthuset",
+        "category": "hall",
+        "city": "Copenhagen",
+        "address": "Emil Holms Kanal 20, 0999 København C",
+        "capacity": 1800,
+        "founded": 2009,
+        "website": "https://www.dr.dk/koncerthuset",
+        "description": "DR's concert hall on DR Byen; home of the Danish National Symphony Orchestra."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5685,
+          55.676
+        ]
+      },
+      "properties": {
+        "id": "pumpehuset",
+        "name": "Pumpehuset",
+        "category": "hall",
+        "city": "Copenhagen",
+        "address": "Rådhuspladsen 77, 1550 København V",
+        "capacity": 1800,
+        "founded": null,
+        "website": "https://pumpehuset.dk",
+        "description": "Rock and pop venue behind City Hall with two stages."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5552,
+          55.6801
+        ]
+      },
+      "properties": {
+        "id": "cirkusbygningen",
+        "name": "Cirkusbygningen",
+        "category": "hall",
+        "city": "Copenhagen",
+        "address": "Jernbanegade 8, 1608 København V",
+        "capacity": 1600,
+        "founded": 1886,
+        "website": "https://cirkusbygningen.dk",
+        "description": "Historic circus building turned concert venue near the central station."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5478,
+          55.6709
+        ]
+      },
+      "properties": {
+        "id": "vega",
+        "name": "Vega (Store Vega & Lille Vega)",
+        "category": "hall",
+        "city": "Copenhagen",
+        "address": "Enghavevej 40, 1674 København V",
+        "capacity": 1550,
+        "founded": null,
+        "website": "https://www.vegacph.dk",
+        "description": "Two halls in one building in Vesterbro — Store Vega (~1,550) and Lille Vega (~400); a landmark for international touring acts."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5473,
+          55.6712
+        ]
+      },
+      "properties": {
+        "id": "voxhall",
+        "name": "VoxHall",
+        "category": "hall",
+        "city": "Copenhagen",
+        "address": "Enghavevej 35, 1674 København V",
+        "capacity": 1500,
+        "founded": null,
+        "website": "https://www.voxhall.dk",
+        "description": "Concert venue next to Vega in Vesterbro with a main hall and smaller rooms."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.606,
+          55.666
+        ]
+      },
+      "properties": {
+        "id": "amager-bio",
+        "name": "Amager Bio",
+        "category": "hall",
+        "city": "Copenhagen",
+        "address": "Øresundsvej 6, 2300 København S",
+        "capacity": 1250,
+        "founded": 1991,
+        "website": "https://amagerbio.dk",
+        "description": "Classic rock club on Amager, Copenhagen."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9192,
+          57.0459
+        ]
+      },
+      "properties": {
+        "id": "musikkens-hus",
+        "name": "Musikkens Hus",
+        "category": "hall",
+        "city": "Aalborg",
+        "address": "Musikkens Plads 1, 9000 Aalborg",
+        "capacity": 1400,
+        "founded": 2007,
+        "website": "https://www.musikkenshus.dk",
+        "description": "Aalborg’s concert hall for classical, jazz and popular music by the Limfjord."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.387,
+          55.404
+        ]
+      },
+      "properties": {
+        "id": "posten-odense",
+        "name": "Posten",
+        "category": "hall",
+        "city": "Odense",
+        "address": "Vestergade 88, 5000 Odense C",
+        "capacity": 1000,
+        "founded": null,
+        "website": "https://postenlive.dk",
+        "description": "Odense’s main rock venue in the city centre."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.6105,
+          55.6899
+        ]
+      },
+      "properties": {
+        "id": "loppen",
+        "name": "Loppen",
+        "category": "hall",
+        "city": "Copenhagen",
+        "address": "Refshalevej 163A, 1432 København K",
+        "capacity": 800,
+        "founded": null,
+        "website": "https://www.loppen.dk",
+        "description": "Independent venue on Refshaleøen, a hub for emerging and experimental music."
+      }
+    }
+  ]
+}
